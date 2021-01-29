@@ -87,3 +87,18 @@ E deletando Alunos
 
 ![deletaluno](https://user-images.githubusercontent.com/60821255/106256887-a0a7c580-61fa-11eb-9a36-814737bfad15.png)
 
+
+###Teste Unitário
+
+
+Módulo do teste
+
+![t2](https://user-images.githubusercontent.com/60821255/106258229-558eb200-61fc-11eb-8abf-7c42f7dc8692.png)
+
+
+Resultado do teste
+
+![t1](https://user-images.githubusercontent.com/60821255/106258361-79ea8e80-61fc-11eb-8175-9d488f549d5d.png)
+
+
+
