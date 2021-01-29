@@ -9,11 +9,11 @@ from Provas_Alunos import Cadastrar_provaAluno, ProvasAlunos
 import sqlite3
 
 db = create_engine("sqlite:///C:\\Users\\guilh\\Desktop\\Projeto_Proway\\Alf\\dbalf")#caminho do banco de dados
-app = Flask(__name__)
-cors = CORS(app)
-api = Api(app)
+app = Flask(__name__) # criando a instância do Flask
+cors = CORS(app) #permitindo o cross-origin para receber requisições de outros servidores
+api = Api(app) # instânciando a api Flask
 
-#urls...
+#urls end-point
 api.add_resource(Alunos, '/')
 api.add_resource(AlunoCreate, '/novoAluno')
 api.add_resource(AlunosById, '/aluno/<id>')
@@ -25,6 +25,6 @@ api.add_resource(NotaAluno, '/media-aluno/<id>')
 api.add_resource(Aprovados, '/aprovados')
 
 
-if __name__ == "__main__":
+if __name__ == "__main__": # executa o programa
     print(db.connect())
     app.run()
