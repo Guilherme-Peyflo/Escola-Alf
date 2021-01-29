@@ -2,7 +2,7 @@ from flask import Flask, request
 from flask_restful import Resource
 from sqlalchemy import create_engine
 
-db = create_engine("sqlite:///C:\\Users\\guilh\\Desktop\\Projeto_Proway\\Escola_Alf\\dbalf")
+db = create_engine("sqlite:///C:\\Users\\guilh\\Desktop\\Projeto_Proway\\Alf\\dbalf")#caminho do banco de dados
 
 def avaliar(prova,gabarito,pesos):
     dividendo = 0

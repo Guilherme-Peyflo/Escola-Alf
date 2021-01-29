@@ -8,7 +8,7 @@ from Provas_Alunos import Cadastrar_provaAluno, ProvasAlunos
 
 import sqlite3
 
-db = create_engine("sqlite:///C:\\Users\\guilh\\Desktop\\Projeto_Proway\\Escola_Alf\\dbalf")
+db = create_engine("sqlite:///C:\\Users\\guilh\\Desktop\\Projeto_Proway\\Alf\\dbalf")#caminho do banco de dados
 app = Flask(__name__)
 cors = CORS(app)
 api = Api(app)
